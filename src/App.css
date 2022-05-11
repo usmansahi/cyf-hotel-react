@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(32, 20, 20);
   height: 50px;
   padding: 20px;
   color: white;
@@ -16,6 +16,18 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: bold;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+.headerlogo {
+  width: 50px;
+  display: flex;
+  background-color: black;
+  margin-left: 10px;
 }
 
 .App-title {
@@ -54,4 +66,8 @@ tr {
 
 .card {
   width: 18rem;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
 }
