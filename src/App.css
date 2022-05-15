@@ -61,8 +61,15 @@ tr {
 .results {
   padding-top: 15px;
 }
-
+.resturentMenu {
+  text-align: center;
+}
 .footer {
+  padding-top: 20px;
+  text-align: center;
+  background-color: rgb(138, 181, 183);
+}
+.footer li {
   padding-top: 20px;
   text-align: center;
 }

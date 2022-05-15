@@ -6,7 +6,7 @@ const Order = props => {
     setOrders(Orders + 1);
   };
   return (
-    <li>
+    <li className="orderclass">
       {props.orderType}: {Orders}
       <RestaurantButton handleClick={orderOne} />
     </li>
