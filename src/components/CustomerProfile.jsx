@@ -10,7 +10,7 @@ const CustomerProfile = ({ id }) => {
         .then(data => setcustomerInfo(data));
     }
   }, [id]);
-  //coomet
+
   return (
     <div>
       {id && customerInfo
