@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "./components/Heding";
+import Heading from "./components/Heading";
 import TouristInfoCards from "./components/TouristInfoCards";
 import Bookings from "./components/Bookings";
 import "./App.css";

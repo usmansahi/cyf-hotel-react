@@ -50,6 +50,13 @@
     transform: rotate(360deg);
   }
 }
+.btn-primary {
+  border-radius: 10px;
+}
+.btn-primary:hover {
+  background-color: #3fa799;
+  transition: 0.7s;
+}
 .search {
   padding: 5px 0 20px 0;
 }
@@ -64,14 +71,13 @@ tr {
 .resturentMenu {
   text-align: center;
 }
-.footer {
+.footer ul {
   padding-top: 20px;
   text-align: center;
   background-color: rgb(138, 181, 183);
 }
-.footer li {
-  padding-top: 20px;
-  text-align: center;
+ul {
+  list-style: none;
 }
 
 .card {
