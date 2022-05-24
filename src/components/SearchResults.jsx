@@ -8,10 +8,10 @@ const SearchResults = props => {
     setcustomerId(id);
   }
   return (
-    <div>
-      <table className="table">
-        <thead>
-          <tr>
+    <div className="table-responsive">
+      <table className="table table-bordered">
+        <thead className="thead-dark">
+          <tr className="text-center">
             <th scope="col">ID</th>
             <th scope="col">Title</th>
             <th scope="col">First Name</th>
@@ -21,6 +21,7 @@ const SearchResults = props => {
             <th scope="col">Check In Date</th>
             <th scope="col">Check Out Date</th>
             <th scope="col">Nights</th>
+            <th scope="col">Profile Button</th>
           </tr>
         </thead>
         <tbody>

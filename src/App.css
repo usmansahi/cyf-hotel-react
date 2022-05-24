@@ -50,8 +50,13 @@
     transform: rotate(360deg);
   }
 }
+.thead-dark {
+  background-color: #3fa799;
+  border-radius: 30px;
+}
 .btn-primary {
   border-radius: 10px;
+  margin: 2 rem;
 }
 .btn-primary:hover {
   background-color: #3fa799;
@@ -70,8 +75,26 @@ tr {
 }
 .resturentMenu {
   text-align: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: baseline;
+  margin: 1rem 0;
+}
+.resturentMenu ul li {
+  text-align: center;
+  margin-top: 0.5;
+  font-weight: 500;
+}
+.resturentMenu h3 {
+  border-bottom: 1px solid rgb(155, 182, 155);
+}
+.footer {
+  background-color: #3fa799;
+  padding: 20px;
+  text-align: center;
 }
 .footer ul {
+  flex-wrap: wrap;
   padding-top: 20px;
   text-align: center;
   background-color: rgb(138, 181, 183);
@@ -82,6 +105,7 @@ ul {
 
 .card {
   width: 18rem;
+  margin-top: 0.6rem;
 }
 .card img {
   height: 200px;
